@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* =========================
+   SIDEBAR SCROLLBAR
+   Hidden normally
+   Thin scrollbar on hover
+   ========================= */
+
+.sidebar-scroll {
+  scrollbar-width: none;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.sidebar-scroll:hover {
+  scrollbar-width: thin;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* =========================
+   BUTTON LIST SCROLLBAR
+   Completely hidden
+   ========================= */
+
+.button-scroll {
+  scrollbar-width: none;
+}
+
+.button-scroll::-webkit-scrollbar {
+  display: none;
+}
