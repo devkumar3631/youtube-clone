@@ -1,19 +1,48 @@
-# React + Vite
+# YouTube Clone 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive YouTube-inspired web application built using **React, Redux Toolkit, Tailwind CSS, and YouTube APIs**.
 
-Currently, two official plugins are available:
+This project focuses on recreating the core YouTube experience while practicing modern React development, state management, API integration, routing, responsive UI, comments, and live chat functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  Screenshots
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+###  Home Page
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+![Home Page](./screenshots/home.png)
 
-## Expanding the ESLint configuration
+###  Watch Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Watch Page](./screenshots/watch.png)
+
+###  Comments
+
+![Comments](./screenshots/comments.png)
+
+---
+
+##  Features
+
+-  YouTube-style video browsing
+-  Watch videos using YouTube embed
+-  Comment section
+-  Live chat simulation
+-  Responsive sidebar navigation
+-  Client-side routing
+-  Redux Toolkit state management
+-  API integration
+-  Responsive design
+-  Tailwind CSS UI
+-  Live chat polling simulation
+
+---
+
+## Tech Stack
+- React
+- JavaScript
+- Tailwind CSS
+- Redux Toolkit
+- React Router
+- Lucide React
+- Vite
